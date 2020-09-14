@@ -1,0 +1,101 @@
+.module { 
+	background-color: orange; 
+	color: white;
+	width: 150px;
+	padding: 10px;
+	margin: 10px 0;
+}
+.module2 {
+	 background-color: rgba(200, 60, 10, 0.3);
+	 color: white;
+	 padding: 10px;
+	 margin: 10px;
+}
+.dev:after {
+	content: '执行npm run dev调试开发打包';
+	position: absolute;
+	left: 130%;
+	top: 30%;
+	transform: translateY(-50%) scaleX(6);
+	font-size: 20px;
+	width: 300px;
+	color: yellow;
+}
+.build:after {
+	content: '执行npm run build产品上线打包';
+	position: absolute;
+	left: 130%;
+	top: 20%;
+	transform: translateY(-150%) scaleX(13);
+	font-size: 20px;
+	width: 300px;
+	color: purple;
+}
+
+.enviroument { 
+	background-color: #ccc;
+	padding: 10px;
+}
+body { 
+	display: flex;
+	padding: 10px; 
+}
+body .left { 
+	flex-grow: 1; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+body .right{ 
+	flex-shrink: 0;
+	margin-left: 10px;
+	border-left: 20px solid black;
+	border-radius: 0;
+}
+.stack {
+	background-color: #0094ff;
+	padding: 10px;
+}
+.stack ul.block {
+	background-color: white;
+	margin: 10px 0;
+	padding: 10px;
+}
+.stack ul.block li{
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	background-color: orange;
+}
+
+.programmer { 
+	display: inline-block; 
+	padding: 10px;
+	font-size: 50px;
+	color: white;
+	background-color: green;
+}
+
+.client { width: 350px;  }
+.mysql:after {
+	content: 'mysql';
+	position: absolute;
+	left: 0;
+	bottom: 100%;
+	background-color: orange;
+	transform: translateX(-20%); 
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.express2:after {
+	content: 'express';
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	background-color: orange;
+	transform: translateY(-50%); 
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
